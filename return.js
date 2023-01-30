@@ -30,4 +30,3 @@ var singaras = bringSingara(myTaka); //? আর myTaka টাকে আমরা
 
 console.log('Eating', singaras, 'singaras');
 
-office
