@@ -29,3 +29,4 @@ var myTaka = 150;
 var singaras = bringSingara(myTaka); //? আর myTaka টাকে আমরা argument হিসেবে পাস করছি bringSingara function এর মধ্যে।
 
 console.log('Eating', singaras, 'singaras');
+
