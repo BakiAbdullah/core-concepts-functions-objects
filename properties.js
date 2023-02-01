@@ -11,10 +11,13 @@ console.log(shoppingCart.books);
 //? When you know the property name, use dot (.) notation
 var penCount = shoppingCart.pen
 
-//? Alternative system
+//? Alternative system, When you know the specific property name
 var penCount2 = shoppingCart["pen"] ;
+// console.log(penCount2)
 
-//? Another system 
+
+
+//* Another system 
 //?Object এর Property or Key গুলোকে Array হিসেবে দিবে।
 var properties = Object.keys(shoppingCart); 
 
@@ -28,7 +31,7 @@ var propertyValue = shoppingCart[propertyName]
 // console.log(propertyName, propertyValue);
 
 
-//? Set Property Value or name
+//! Set Property Value or name
 shoppingCart.mouse = 15; //1.
 // console.log(shoppingCart);
 //? Another way
